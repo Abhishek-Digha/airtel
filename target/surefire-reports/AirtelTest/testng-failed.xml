@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AirtelTest]">
+  <parameter name="environment" value="STG"/>
+  <parameter name="browserName" value="firefox"/>
+  <test name="Airtel-Tests(failed)">
+    <classes>
+      <class name="com.airtel.in.TestLandingPageAndCart">
+        <methods>
+          <include name="getResult"/>
+          <include name="beforeTest"/>
+          <include name="flushReport"/>
+          <include name="testLandingPageAndCart"/>
+          <include name="quitDriver"/>
+          <include name="ExtentReportConfig"/>
+          <include name="getSuiteName"/>
+        </methods>
+      </class> <!-- com.airtel.in.TestLandingPageAndCart -->
+    </classes>
+  </test> <!-- Airtel-Tests(failed) -->
+</suite> <!-- Failed suite [AirtelTest] -->

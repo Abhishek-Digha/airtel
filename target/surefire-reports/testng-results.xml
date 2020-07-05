@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AirtelTest" duration-ms="28458" started-at="2020-07-05T08:24:55Z" finished-at="2020-07-05T08:25:24Z">
+    <groups>
+    </groups>
+    <test name="Airtel-Tests" duration-ms="28458" started-at="2020-07-05T08:24:55Z" finished-at="2020-07-05T08:25:24Z">
+      <class name="com.airtel.in.TestLandingPageAndCart">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="beforeTest" is-config="true" duration-ms="21508" started-at="2020-07-05T13:54:55Z" finished-at="2020-07-05T13:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getSuiteName(org.testng.ITestContext)[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="getSuiteName" is-config="true" duration-ms="1" started-at="2020-07-05T13:55:17Z" finished-at="2020-07-05T13:55:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@468873]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSuiteName -->
+        <test-method status="PASS" signature="ExtentReportConfig()[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="ExtentReportConfig" is-config="true" duration-ms="80" started-at="2020-07-05T13:55:17Z" finished-at="2020-07-05T13:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method status="PASS" signature="testLandingPageAndCart()[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="testLandingPageAndCart" duration-ms="6636" started-at="2020-07-05T13:55:17Z" finished-at="2020-07-05T13:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLandingPageAndCart -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="flushReport" is-config="true" duration-ms="217" started-at="2020-07-05T13:55:23Z" finished-at="2020-07-05T13:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-05T13:55:23Z" finished-at="2020-07-05T13:55:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLandingPageAndCart status=SUCCESS method=TestLandingPageAndCart.testLandingPageAndCart()[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.airtel.in.TestLandingPageAndCart@d3bd8b]" name="quitDriver" is-config="true" duration-ms="0" started-at="2020-07-05T13:55:24Z" finished-at="2020-07-05T13:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.airtel.in.TestLandingPageAndCart -->
+    </test> <!-- Airtel-Tests -->
+  </suite> <!-- AirtelTest -->
+</testng-results>
